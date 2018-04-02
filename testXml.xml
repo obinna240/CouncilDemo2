@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+	<CareHomeObjects>
+		<careHomeObject id="1">
+			<name>Ashcombe</name>
+			<url>www.barchester.com</url>
+			<description>Specialised care for young adults with learning difficulties and additional complex needs</description>
+			<address1>65 Worting Road</address1>
+			<address2> </address2>
+			<address3> </address3>
+			<town>Basingstoke</town>
+			<postcode>RG21 8YU</postcode>
+			<phone>01425619256</phone>
+			<vacancies> </vacancies>
+			<easting>51.123226</easting>
+			<northing>-2.752695</northing>
+			<easting_northing>51.123226, -2.752695</easting_northing>
+			
+			<careProvided>DM</careProvided>
+			<careProvided>MHC</careProvided>
+			<careProvided>LD</careProvided>
+			<careProvided>OA</careProvided>
+			<careProvided>PD</careProvided>
+			<careProvided>SI</careProvided>
+			<careProvided>PPAD</careProvided>
+			<careProvided>PPDD</careProvided>
+			
+			<admissions>SS</admissions>
+			<admissions>FC</admissions>
+			<admissions>IS</admissions>
+			
+			
+			
+			<homeType>CHWON</homeType>
+			<homeType>CHWN</homeType>
+			<homeType>CHOBTC</homeType>
+		
+			<docType>CareHome</docType>
+			<localAuthority>Hampshire</localAuthority>
+			<linkToCQCRating>http://www.cqc.org.uk/location/1-320190112</linkToCQCRating>
+			<lastReviewed>August 2015</lastReviewed>
+			<lastReviewedAsString>2015-01-01</lastReviewedAsString> <!-- yyyy-mm-dd -->
+			<numberOfBeds>30</numberOfBeds>
+			<hca>yes</hca> <!-- yes or no -->
+			<rnha>yes</rnha> <!-- yes or no -->
+			<nca>no</nca> <!-- yes or no -->
+			<ce>no</ce> <!-- yes or no or leave blank-->
+			<ncf>no</ncf> <!-- yes or no -->
+			<typeOfHome>private</typeOfHome> <!-- private or voluntary -->
+		</careHomeObject>
+	</CareHomeObjects>
+
+

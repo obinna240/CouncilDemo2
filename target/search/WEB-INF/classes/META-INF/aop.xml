@@ -1,0 +1,14 @@
+<!DOCTYPE aspectj PUBLIC "-//AspectJ//DTD//EN" "http://www.eclipse.org/aspectj/dtd/aspectj.dtd">
+<aspectj>
+	<weaver options="-Xset:weaveJavaxPackages=true">
+		<!-- only weave classes in our application-specific packages -->
+		<include within="com.*"/>
+		<include within="javax.persistence.*"/>
+		
+		<exclude within="com.crystaldecisions..*"/>
+		<exclude within="com.businessobjects..*"/>
+		
+	</weaver>
+	<aspects>
+	</aspects>
+</aspectj>

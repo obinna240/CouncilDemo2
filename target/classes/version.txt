@@ -1,0 +1,5 @@
+assist_version=${pom.version}
+svn_revision=${env.SVN_REVISION}
+build_tag=${env.JOB_NAME}
+build_number=${env.BUILD_NUMBER}
+build_date=${timestamp}
